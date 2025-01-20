@@ -1,0 +1,88 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2E5077;
+    font-family: "Roboto", serif;
+}
+
+.card {
+    background-color: rgb(0, 134, 144);
+    padding: 20px 40px;
+    border-radius: 15px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.city {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 23px;
+}
+
+button {
+    margin-left: 5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    border: none;
+}
+
+
+
+.information h1 {
+    font-size: 5em;
+    color: white;
+
+}
+
+.information h3 {
+    font-size: 2em;
+    color: white;
+
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.extra h3,
+h4 {
+    text-align: right;
+    color: white;
+
+}
+
+.extra img {
+    height: 50px;
+    width: 50px;
+}
+.humidity,.humidity-speed{
+    margin-left: -30px;
+    font-size: 23px;
+    color: white;
+}
+.wind,.wind-speed{
+    margin-left: -30px;
+    font-size: 20px;
+    color: white;
+}
+.weather{
+    display: none;
+}
